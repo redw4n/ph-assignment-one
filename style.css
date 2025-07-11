@@ -1,0 +1,92 @@
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+}
+
+/* nav bar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 150px;
+}
+
+.nav-title {
+  font-weight: bold;
+  font-size: 34px;
+  color: #4e47ff;
+}
+
+.nav ul li {
+  list-style: none;
+}
+
+.nav ul a {
+  text-decoration: none;
+}
+
+/* shared styles */
+.btn-primary {
+  padding: 12px 35px;
+  border-radius: 10px;
+  color: white;
+  background-color: #4e47ff;
+  border: none;
+}
+
+.dark {
+  color: grey;
+}
+
+/* image */
+.hero {
+  background-image: url(./Hero-bg.png);
+}
+
+/* banner styles */
+
+.banner {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 150px;
+}
+
+.banner-title {
+  font-size: 55px;
+  font-weight: 900;
+}
+
+/* action section */
+
+.action {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: 1140px;
+  padding: 116px 159px 116px 141px;
+}
+
+.action-title {
+  width: 517px;
+}
+
+.action-picture {
+  width: 403px;
+  border-radius: 50px;
+}
+
+/* Count Section */
+
+.count {
+  background: #ccc;
+  filter: alpha(opacity=60);
+}
