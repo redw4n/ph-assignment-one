@@ -45,6 +45,10 @@ nav {
   border: none;
 }
 
+.btn-primary:hover {
+  background-color: #000000;
+}
+
 .dark {
   color: grey;
 }
@@ -57,7 +61,7 @@ nav {
 
 /* image */
 .hero {
-  background-image: url(./Hero-bg.png);
+  background-image: url(./Assets/Hero-bg.png);
 }
 
 /* banner styles */
@@ -241,6 +245,10 @@ select {
   color: white;
   background-color: #4e47ff;
   border: none;
+}
+
+.touch-btn:hover {
+  background-color: #000000;
 }
 
 /* footer */
