@@ -14,6 +14,7 @@ body {
 }
 
 /* nav bar */
+
 nav {
   display: flex;
   align-items: center;
@@ -235,9 +236,32 @@ select {
 
 .touch-btn {
   text-align: center;
-  padding: -1px 161px;
+  padding: 11px 161px;
   border-radius: 10px;
   color: white;
   background-color: #4e47ff;
   border: none;
+}
+
+/* footer */
+.footer-container {
+  margin: 58px 77px 84px 76px;
+  text-align: center;
+}
+
+footer ul {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+footer ul li {
+  list-style: none;
+  margin-right: 10px;
+}
+
+.footer-logo {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-size: 45px;
+  color: #4e47ff;
 }
